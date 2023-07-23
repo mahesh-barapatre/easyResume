@@ -142,7 +142,7 @@ let skills=document.getElementsByClassName('skill')
   
     <HStack id='wrap' marginBottom={'5vh'}>
       
-      <VStack marginTop={8} height={'125vh'} className='wide' w={'50%'}  bg={'white'} overflowX={'auto'}>
+      <VStack marginTop={8} height={'125vh'} className='wide' w={'50%'}  bg={'white'} overflow={'scroll'}>
         <HStack color={'white'} className='wide' w={'50%'} zIndex={'1'} bg={'blue.400'} justifyContent={'space-around'} position={'Fixed'} >
           <HashLink to={'#personal'}>
           <Text>Personal</Text>
